@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+
+<!-- <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+<script type='text/javascript'>
+    
+    $(function(){
+    
+        var iFrames = $('iframe');
+      
+        function iResize() {
+        
+            for (var i = 0, j = iFrames.length; i < j; i++) {
+              iFrames[i].style.height = iFrames[i].contentWindow.document.body.offsetHeight + 'px';}
+            }
+            
+            if ($.browser.safari || $.browser.opera) { 
+            
+               iFrames.load(function(){
+                   setTimeout(iResize, 0);
+               });
+            
+               for (var i = 0, j = iFrames.length; i < j; i++) {
+                    var iSource = iFrames[i].src;
+                    iFrames[i].src = '';
+                    iFrames[i].src = iSource;
+               }
+               
+            } else {
+               iFrames.load(function() { 
+                   this.style.height = this.contentWindow.document.body.offsetHeight + 'px';
+               });
+            }
+        
+        });
+
+</script>
+ -->
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Vlaca - Creative Portfolio Showcase Template">
+    <meta name="keywords"
+        content="vlack,personal, portfolio new, html, one page, bootstrap, new html template, design, creative, onepage, clean, modern">
+    <meta name="author" content="Md samsuzzaman">
+    <!-- PAGE TITLE -->
+    <title>Rudra Consultancy</title>
+    <link rel="icon" href="assets/images/RUDRA CONSULTANCY.png" type="image/gif" sizes="32x32">
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- ALL GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;display=swap" rel="stylesheet">
+    <!-- FONT AWESOME CSS -->
+    <link rel="stylesheet" href="assets/fonts/font-awesome.css">
+    <!-- OWL CAROSEL CSS -->
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
+    <link rel="stylesheet" href="assets/css/effect.css">
+    <link rel="stylesheet" href="assets/css/button.css">
+
+
+    <!-- Cards CSS -->
+    <link rel="stylesheet" href="Cards/card_css.css">
+    <!-- MAGNIFIC CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- MAIN STYLE CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+    <!-- teams links -->
+    <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/social-menu.css">
+    <link rel="stylesheet" href="assets/css/social.scss">
+
+
+
+</head>
+
+<body>
+
+
+    <!-- START PRELOADER AREA-->
+    <div id="preloader-area">
+        <div class="logo center">
+
+            <!-- <p>Rudra Consultancy</p> -->
+            <img src="assets/images/rc.svg" height="150px" width="150px">
+            </a>
+        </div>
+        <!-- <p>Loading...</p> -->
+        <div class="loader">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- END PRELOADER AREA -->
+
+    <!-- START CUROSR AREA-->
+    <div class="cursor cursor-small"></div>
+    <canvas class="cursor cursor-canvas" resize></canvas>
+    <!-- END CURSOR AREA -->
+
+    <!-- OFF CANVAS MENU START -->
+    <div class="offcanves-menu-overlay"></div>
+    <div class="off-canvas-menu">
+        <span class="menu-close">
+            <i class="fa fa-close"></i>
+        </span>
+        <div class="menu-item-wrap">
+            <div class="menu-item-inner">
+                <ul>
+                    <li><a class="smoth-scroll" href="#home">Home</a></li>
+                    <li><a class="smoth-scroll" href="#services">Services</a></li>
+                    <li><a class="smoth-scroll" href="#about">About us</a></li>
+                    <li><a class="smoth-scroll" href="#mission">Mission</a></li>
+
+                    <!--  <li><a class="smoth-scroll" href="Teams\our-team\index.html">Teams</a></li> -->
+                    <li><a class="smoth-scroll" href="https://rudra-rahulgore7.vercel.app/">Blogs</a></li>
+                    <!--  <li><a class="smoth-scroll"
+                            href="Services\anemoimarine.com\rotor-sail-installation\index.html">Services</a></li> -->
+                    <li><a class="smoth-scroll" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-bottom-section">
+            <p>&copy;Copyright Rudra Consultancy. All-Right Reserved</p>
+            <div class="menu-social-links">
+                <ul>
+                    <li><a href="https://www.instagram.com/rudraconsultancy_mgt/?igshid=YmMyMTA2M2Y%3D"><i
+                                class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/rudraconsultancy/"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <!--  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- / END OFF CANVAS MENU START -->
+
+    <!-- START HOMEPAGE DESIGN AREA -->
+    <header id="home" class="welcome-area">
+        <div class="header-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <!-- START LOGO DESIGN AREA -->
+                        <div class="logo topleft">
+                            <a href="index.html">
+                                <!-- <p>Rudra Consultancy</p> -->
+                                <img src="assets/images/rc.svg" height="150px" width="150px">
+                            </a>
+                        </div>
+
+                        <!-- END LOGO DESIGN AREA -->
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <!-- START MENU DESIGN AREA -->
+                        <div class="mainmenu-icons">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <!-- END MENU DESIGN AREA -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="welcome-image-area" >
+            <div id="particles-js"></div>
+            <div class="display-table">
+                <div class="display-table-cell">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="header-text text-center">
+                                    <h2 class="scroll" data-rate="-3" data-direction="vertical">GROW</h2>
+                                    <h2 class="scroll" data-rate="3" data-direction="vertical">YOUR</h2>
+                                    <h2 class="scroll" data-rate="3" data-direction="vertical">BUSINESS</h2>
+                                    <div class="home-arrow-down">
+                                        <a href="#about" class="smoth-scroll btn"><i
+                                                class="fa fa-angle-double-down"></i></a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <!-- / END HOMEPAGE DESIGN AREA -->
+ 
+
+    <!-- START ABOUT DESIGN AREA -->
+    <section id="about" class="about-me-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2 id="about-our-company" id="section-title-about">About our company</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <!-- START ABOUT TEXT AREA -->
+                    <div class="about-text">
+                        <h2 class="wow fadeInDown" data-wow-delay="0.2s" id="first-row-data">We take pride in being the
+                            most organised and passionate Management Consultancy firm in Nashik</h2>
+                        <p class="wow fadeInDown" data-wow-delay="0.4s" id="second-row-data"> We take pride in being the
+                            most organised and passionate Management Consultancy firm in Nashik, Our management
+                            consultants help organizations to solve issues, create value, maximize growth and improve
+                            business performance, bringing organizations to solve issues, create value, maximize growth
+                            and improve business performance.
+                            We use our business skills to provide objective advice and expertise, and help an
+                            organization to develop any specialist skills that it may be lacking</p>
+
+                    </div>
+                    <!-- / END ABOUT TEXT AREA -->
+                </div>
+                <div class="col-md-5">
+                    <!-- START ABOUT IMAGE AREA -->
+                    <!-- <div class="about-image">
+                        <img src="assets/images/me2.jpg" alt="">
+                    </div> -->
+                    <!-- / END ABOUT IMAGE AREA -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END ABOUT DESIGN AREA -->
+
+
+
+
+
+
+
+
+
+    <!-- START SERVICES DESIGN AREA -->
+    <section id="mission" class="service-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2>Mission</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row" data-aos="fade-up">
+                <div class="">
+                    <div class="single-service wow fadeInLeft" data-wow-delay="0.2s">
+                        <!-- <div class="service-icon">
+
+                            <i class="fa fa-users"></i>
+                        </div> -->
+                        <div class="service-description">
+                            <!--      <h2>01 </h2> -->
+                            <p>To continuously improve our customer's ability to efficiently manage their business,
+                                continually improve the effectiveness of the Quality Management System, including any
+                                applicable statutory and regulatory requirements.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- / END SERVICES DESIGN AREA -->
+
+    <!-- Start Vision -->
+    <div style="
+  background-image: url(assets/images/vision_img.jpg) ;" class="bg-1">
+
+        <div class="vision-text text-center1" style="text-align: center;">
+            <h2 class="wow fadeInDown" data-wow-delay="0.2s">Vision</h2>
+            <p class="wow fadeInDown" data-wow-delay="0.4s">
+                To Build exceptional consultancy firm, driven by total commitment to high quality services and clientele
+                satisfaction.</p>
+
+        </div>
+    </div>
+    <!-- End Vision -->
+
+
+
+
+
+
+
+
+
+ <!--    <div class="container_iframe" id="services">
+
+        <iframe src="Cards/cards.html" class="responsive-iframe" style="border: none; ">
+        </iframe>
+
+    </div>
+ -->
+ <!-- START WORK DESIGN AREA -->
+<section id="work" class="work section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="section-title">
+                    <h2>Featured works.</h2>
+                </div>
+            </div>
+        </div>
+        <div class="work-items-wrap">
+            <div class="work-titles">Creative Design<span class="work_cat">Idea</span></div>
+            <div class="row work-items">
+
+                <div class="col-md-4 col-sm-4 single-item">
+                    <a href="pricing/companySub.html" class="work-box vbox-item" data-title="Let our company help you
+                     nail your next project" data-category="click for details">
+                        <div class="work-thumb">
+                            <img src="assets/images/company.svg" alt="work">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4 single-item ">
+                    <a href="pricing/Bankfund.html" class="work-box  vbox-item" data-title="Bank Funds" data-category="click for details">
+                        <div class="work-thumb">
+                            <img src="assets/images/website.svg" alt="work">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4 single-item ">
+                    <a href="pricing/MIS.html" class="work-box  vbox-item" data-title="MIS " data-category="click for details">
+                        <div class="work-thumb">
+                            <img src="assets/images/website.svg" alt="work">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4 single-item offset-md-2 offset-sm-2">
+                    <a href="pricing/human-pricing.html" class="work-box  vbox-item" data-title="Hiring the right people makes all the difference" data-category="click for details">
+                        <div class="work-thumb">
+                            <img src="assets/images/human.svg" alt="work">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4 single-item ">
+                    <a href="pricing/webdev-pricing.html" class="work-box  vbox-item" data-title="Better people, better websites" data-category="click for details">
+                        <div class="work-thumb">
+                            <img src="assets/images/website.svg" alt="work">
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- / END START WORK DESIGN AREA -->
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- START TESTIMONIAL DESIGN AREA -->
+    <section id="testimonial" class="testimonial-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="testimonial-list">
+                        <!-- START SINGLE TESTIMONIAL DESIGN AREA -->
+                        <div class="single-testimonial text-center">
+                            <h2>Being Passionate</h2>
+                            <p id="markzucku">Passion is the key to excellence in anything. Hence, only when we are
+                                passionately drawn towards your business and share the same zeal as you do, we move
+                                forward to work with you. </p>
+                        </div>
+                        <!-- / END SINGLE TESTIMONIAL DESIGN AREA -->
+                        <!-- START SINGLE TESTIMONIAL DESIGN AREA -->
+                        <div class="single-testimonial text-center">
+                            <h2>Adding Value</h2>
+
+                            <p id="markzucku">Value addition to your existing business can nudge your business ahead.
+                                So, we forge a relation with you when we know that our contribution can provide your
+                                business that much needed thrust</p>
+
+                        </div>
+                        <!-- / END SINGLE TESTIMONIAL DESIGN AREA -->
+                        <!-- START SINGLE TESTIMONIAL DESIGN AREA -->
+                        <div class="single-testimonial text-center">
+                            <h2>Being an Asset</h2>
+
+                            <p id="markzucku">When your partners are an asset to your brand your business can thrive
+                                better. Therefore, if we feel we can turn out to be a liability for you we do not
+                                believe in accepting you as a client.</p>
+                        </div>
+                        <!-- / END SINGLE TESTIMONIAL DESIGN AREA -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Media Buttons -->
+
+        </div>
+    </section>
+    <!-- / END TESTIMONIAL DESIGN AREA -->
+
+
+    <!-- START CONTACT DESIGN AREA -->
+    <section id="contact" class="contact-me-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title white-title">
+                        <h2>say hello!</h2>
+                        <div class="menu-bottom-section">
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div id="please-row" class="row">
+                <div class="col-md-4 ">
+                    <div class="single-contact-details">
+                        <i class="fa fa-map"></i>
+                        <h2>5th Unit, Shramic Nagar</h2>
+                        <h3>Behind Bagul Hospital, Prasad Circle, Gangapur Road,</h3>
+                        <p style="font-size: 20px;">Nashik - 422005 </p><br>
+                        <p style="font-size: 15px">Phone : (+91) 8468875052</p>
+                        <p style="font-size: 15px">Email : panagha11@gmail.com</p>
+                        <div class="menu-social-links">
+                            <ul>
+                                <li><a href="https://www.instagram.com/rudraconsultancy_mgt/?igshid=YmMyMTA2M2Y%3D"><i
+                                            class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/rudraconsultancy/"><i
+                                            class="fa fa-twitter"></i></a></li>
+
+                            </ul>
+                        </div>
+                        <div style="display: flex; align-items: center; flex-direction: row; font-size: 15px;gap: 15px;">
+                            <a style="color: white; border: none;" href="./terms/terms-and-conditions.html ">Terms and
+                                Conditions</a>
+                            <a style="color: white;  border: none;"
+                                href="./terms/refund-policy.html">Refund Policy</a>
+                            <a style="color: white;  border: none;"
+                                href="./terms/privacy-policy.html">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <!-- START CONTACT FORM DESIGN AREA -->
+                    <div class="contact-form">
+                        <form id="form" action="https://formspree.io/f/mqkjpygb" method="POST">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" name="name" class="form-control" id="first-name"
+                                        placeholder="Name" required="required">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="email" name="email" class="form-control" id="email" placeholder="Email"
+                                        required="required">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <textarea rows="6" name="message" class="form-control" id="description"
+                                        placeholder="Your Message" required="required"></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="actions wow fadeInDown" data-wow-delay=".4s">
+                                        <input type="submit" value="submit now" name="submit" id="submitButton"
+                                            class="btn btn-lg btn-contact-bg" title="Submit Your Message!">
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                    </form>
+                </div>
+
+                <!-- / END CONTACT FORM DESIGN AREA -->
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- / END CONTACT DESIGN AREA -->
+
+
+
+    <!-- START FOOTER DESIGN AREA -->
+    <!-- / END CONTACT DETAILS DESIGN AREA -->
+
+    <!-- START SCROOL UP DESIGN AREA -->
+
+
+
+    <div class="float">
+        <a href="https://api.whatsapp.com/send?phone=7028161602&text=" class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
+    </div>
+
+
+    <!-- <footer class="social-footer">
+        <div class="social-footer-left">
+          <a href="#"><img class="logo" src="assets/images/rc.svg"></a>
+        </div>
+        <div class="social-footer-icons">
+          <ul class="menu simple">
+            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </footer> -->
+
+
+
+
+
+
+
+    <script src="assets/js/move.js"></script>
+    <!-- LATEST JQUERY -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- BOOTSTRAP JS -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- OWL CAROUSEL JS  -->
+    <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+    <!-- MAGNIFICANT JS -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- STEALLER JS -->
+    <script src="assets/js/jquery.stellar.min.js"></script>
+    <!-- ANIMATION JS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- PARTICLE JS -->
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/nice-scrool.js"></script>
+    <!-- scripts js -->
+    <script src="assets/js/mouse.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script type="text/javascript">
+        function buttonClick()
+        <script type="text/javascript" src="https://form.jotform.com/jsform/222584785819472"></script>
+
+    </script>
+
+
+
+</body>
+
+
+
+
+</html>
